@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    text-align: justify;
+}
+
+.card li {
+    line-height: 1.8; /* Ajuste o valor conforme necessário para o espaçamento entre as linhas */
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
