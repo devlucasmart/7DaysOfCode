@@ -10,7 +10,8 @@ function exibirTextoNaTela(texto, tag) {
     if (resultadoDiv) {
         resultadoDiv.innerHTML = texto;
     } else {
-        console.log(`Elemento com id '${tag}' não encontrado.`);
+        alert('Aconteceu algo de errado com as propriedades informadas!!')
+        console.error(`Elemento com id '${tag}' não encontrado.`);
     }
 }
 
